@@ -1,0 +1,117 @@
+body {
+    font-family: Helvetica, Verdana, Arial, serif;
+
+    background-color: #ddd;
+}
+.center-box {
+    overflow: hidden;
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.options {
+    float: right;
+
+    margin-left: 50px;
+}
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+
+    margin: 20px 0;
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+canvas {
+    display: block;
+    float: left;
+
+    border: 1px solid #000;
+}
+button.pause {
+    font-size: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border: 3px solid #555;
+    border-radius: 50%;
+}
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+li {
+    margin-top: 10px;
+}
+button, input {
+    padding: 5px 10px;
+
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    outline: none;
+}
+.hidden input {
+    width: 85%;
+}
+.hidden button {
+    width: 10%;
+    height: 32px;
+
+    color: #555;
+}
+input[type="number"] {
+    width: 4em;
+}
+input[type='range'] {
+    width: 150px;
+    height: 6px;
+
+    border: none;
+    background-color: #000473;
+
+    -webkit-appearance: none;
+}
+input[type="range"]::-moz-range-progress {
+    background-color: #43e5f7;
+}
+input[type="range"]::-moz-range-track {
+    background-color: #9a905d;
+}
+input[type="range"]::-ms-fill-lower {
+    background-color: #43e5f7;
+}
+input[type="range"]::-ms-fill-upper {
+    background-color: #9a905d;
+}
+.range-label {
+    display: block;
+
+    width: 150px;
+    margin-top: 10px;
+
+    text-align: center;
+}
+button:hover {
+    transition-duration: 0.1s;
+
+    color: #000473;
+    border-color: #000473;
+}
+input:focus {
+    border-color: #000473;
+}
+.sort {
+    font-size: 18px;
+    font-weight: 600;
+
+    margin-top: 10px;
+
+    color: #555;
+    border: 2px solid #555;
+}
+footer {
+    margin-bottom: 100px;
+}
